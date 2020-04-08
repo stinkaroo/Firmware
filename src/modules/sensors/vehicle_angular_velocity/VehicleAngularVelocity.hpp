@@ -116,6 +116,7 @@ private:
 	uint8_t _selected_sensor_sub_index{0};
 
 	hrt_abstime _timestamp_sample_last{0};
+	hrt_abstime _sample_rate_check_last{0};
 	float _interval_sum{0.f};
 	float _interval_count{0.f};
 
